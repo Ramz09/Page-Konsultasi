@@ -1,0 +1,187 @@
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+/* General Box Styling */
+.jadwal-layanan-box,
+.syarat-ketentuan-box,
+.video-call-link-box,
+.more-info-box {
+    border: 2px solid #D3D3D3;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.more-info-box {
+    margin-bottom: 0;
+}
+
+.video-call-link-box, 
+.more-info-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.box-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.53125rem;
+    color: rgb(73, 80, 87);
+}
+
+/* Custom Buttons */
+.btn-custom {
+    display: inline-block; /* Membuat lebar tombol menyesuaikan konten */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.btn-custom:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.btn-blue {
+    background-color: #004daf; /* Warna asli: rgb(0, 77, 175) */
+}
+
+.btn-yellow {
+    background-color: #F2BB10;
+}
+.btn-green {
+    background-color: #69b045; /* Warna asli: rgb(105, 176, 69) */
+}
+.btn-red {
+    background-color: #ff746c; /* Warna asli: rgb(255, 116, 108) */
+}
+
+/* Jadwal Layanan Styling */
+.jadwal-waktu {
+    font-size: 1.09375rem;
+    margin-bottom: 0.5em;
+}
+
+.jadwal-istirahat {
+    margin-bottom: 1.5em;
+}
+
+/* Syarat & Ketentuan List Styling */
+.syarat-list li {
+    margin-bottom: 12px;
+}
+
+.syarat-list .nested-bullet-list {
+    list-style-type: disc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 1.5em;
+}
+
+.syarat-list .nested-bullet-list li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #3984c6;
+}
+
+a:hover {
+    color: var(--base-color-base);
+}
+
+/* Accordion (FAQ) Styling */
+.kotak-faq {
+    background: var(--base-color-body);
+}
+
+.kotak-faq-detail {
+    background: #fbfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    color: unset;
+}
+
+.panel-title {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    background: #1E6CD1;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.panel-title a {
+    color: #ffffff; /* Menggantikan inline style span */
+    text-decoration: none;
+}
+
+.panel-title a:hover {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.panel-heading .accordion-toggle:after {
+    content: "–";
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+    position: relative;
+    top: -4px;
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "⌵";
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+    position: relative;
+    top: -4px;
+}
+
+/* Ordered List Styling */
+.rapi {
+    list-style-type: none;
+    counter-reset: list-item;
+    margin: 0;
+    padding: 0;
+}
+
+.rapi li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+
+.rapi li::before {
+    counter-increment: list-item;
+    content: counter(list-item) ". ";
+    flex-shrink: 0;
+    width: 2.5em;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .rapi {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .rapi li::before {
+        width: 2em;
+        margin-right: 0.3em;
+    }
+}

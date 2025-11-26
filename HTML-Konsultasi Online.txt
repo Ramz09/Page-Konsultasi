@@ -1,0 +1,152 @@
+<div class="container single-content pt-0">
+    <div class="row mt-0 mb-10 d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="kotak-faq wow fadeInUp">
+                <div class="col-xs-12 col-md-12">
+                    <p style="text-align: justify;">Sebagai upaya untuk meningkatkan&nbsp;pelayanan publik berbasis digital yang&nbsp;transparan, profesional, akuntabel, dan responsif,<b>&nbsp;</b>layanan konsultasi mengenai perizinan dan/atau pelaporan secara tatap maya (menggunakan aplikasi Zoom Meeting)&nbsp;terdapat <b>penyesuaian jadwal layanan dan alur konsultasi per tanggal 11 Agustus 2025</b>.</p>
+                    <p style="text-align: justify;">Silakan simak informasi jadwal layanan, petunjuk pendaftaran, dan ketentuan berikut ini.</p>
+
+                    <div class="jadwal-layanan-box">
+                        <h3 class="box-title">🗓️ Jadwal Layanan</h3>
+                        <div class="text-center jadwal-waktu">
+                            <span>Senin-Jumat</span><br>
+                            <span>10.00 s.d. 15.00 WIB</span>
+                        </div>
+                        <div class="text-center jadwal-istirahat">(*Jam istirahat 12.00–13.00 &amp; Jumat 11.30–13.00)</div>
+
+                        <div class="panel-group" id="milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70">
+                            <div class="panel panel-default mb-20">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70" href="#collapse-senin">SENIN</a>
+                                    </p>
+                                </div>
+                                <div id="collapse-senin" class="panel-collapse collapse show">
+                                    <div class="kotak-faq-detail">
+                                        <ol class="rapi">
+                                            <li>Kegiatan Usaha Perdagangan Melalui Sistem Elektronik (PMSE)</li>
+                                            <li>Kantor Perwakilan Perusahaan Perdagangan Asing (KP3A-PMSE)</li>
+                                            <li>Kegiatan Usaha Perusahaan Perantaraan Perdagangan Properti</li>
+                                            <li>Kegiatan Usaha Jasa Survei</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default mb-20">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70" href="#collapse-selasa">SELASA</a>
+                                    </p>
+                                </div>
+                                <div id="collapse-selasa" class="panel-collapse collapse show">
+                                    <div class="kotak-faq-detail">
+                                        <ol class="rapi">
+                                            <li>Surat Izin Usaha Penjualan Langsung (SIUPL)</li>
+                                            <li>Surat Tanda Pendaftaran Waralaba (STPW)</li>
+                                            <li>Surat Tanda Pendaftaran Distributor dan Keagenan (STP)</li>
+                                            <li>Toko Swalayan dan Pusat Perbelanjaan</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default mb-20">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70" href="#collapse-rabu">RABU</a>
+                                    </p>
+                                </div>
+                                <div id="collapse-rabu" class="panel-collapse collapse show">
+                                    <div class="kotak-faq-detail">
+                                        <ol class="rapi">
+                                            <li>Minuman Beralkohol (IT-MB, SKMB, SKPA, SKPLA)</li>
+                                            <li>Pemberitahuan Perdagangan Antarpulau Barang (PAB)</li>
+                                            <li>Tanda Daftar Gudang (TDG)</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default mb-20">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70" href="#collapse-kamis">KAMIS</a>
+                                    </p>
+                                </div>
+                                <div id="collapse-kamis" class="panel-collapse collapse show">
+                                    <div class="kotak-faq-detail">
+                                        <ol class="rapi">
+                                            <li>Minuman Beralkohol (IT-MB, SKMB, SKPA, SKPLA)</li>
+                                            <li>Bahan Berbahaya (B2)</li>
+                                            <li>Surat Persetujuan Perdagangan Antarpulau Gula Kristal Rafinasi (SPPAGKR) &amp; Non-SPPAGKR</li>
+                                            <li>Penggunaan Merek Minyakita</li>
+                                            <li>Surat Izin Usaha Penjualan Langsung (SIUPL)</li>
+                                            <li>Surat Tanda Pendaftaran Waralaba (STPW)</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default mb-20">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#milea-4ed69bbb-8d84-4b22-9629-48d8546f2d70" href="#collapse-jumat">JUMAT</a>
+                                    </p>
+                                </div>
+                                <div id="collapse-jumat" class="panel-collapse collapse show">
+                                    <div class="kotak-faq-detail">
+                                        <ol class="rapi">
+                                            <li>Surat Tanda Pendaftaran Distributor dan Keagenan (STP)</li>
+                                            <li>Kantor Perwakilan Perusahaan Perdagangan Asing (KP3A) Non-PMSE</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="syarat-ketentuan-box">
+                        <h3 class="box-title" style="margin-top: 20px;">📄 Petunjuk Pendaftaran</h3>
+                        <ol class="syarat-list">
+                            <li><strong>Cek Kesesuaian Jadwal</strong><br>Pastikan konsultasi dilakukan sesuai dengan jadwal layanan di atas.</li>
+                            <li><strong>Ajukan Tiket Antrian</strong>
+                                <ul class="nested-bullet-list">
+                                    <li>Masuk ke laman <a href="https://hero.kemendag.go.id/tiket/kategori#uptp-i-pdn" target="_blank">hero.kemendag.go.id/tiket/kategori</a> atau klik tautan di bawah.</li>
+                                    <li>Pilih sub-menu UPTP I - PDN.</li>
+                                    <li>Pilih layanan konsultasi diinginkan dan isi data diri.</li><b>PENTING❗️Pendaftaran nomor antrian hanya dapat dilakukan pada pukul 07.30 s.d. 13.00 WIB</b></ul>
+                                
+                            </li>
+                            <li><strong>Pantau Daftar Antrian secara <i>Real-Time</i><br></strong>Silakan pantau daftar antrian secara <i>real-time</i> melalui tautan di bawah.</li><li><strong>Mulai Panggilan Video</strong><br>Setelah mendaftar silakan<b> akses tautan Zoom Meeting </b>yang diperoleh<b> dari laman Hero Kemendag</b> maupun <b>Email</b> yang dicantumkan saat pendaftaran.</li>
+                        </ol>
+
+                        <h3 class="box-title" style="margin-top: 40px;">🚨 Ketentuan Zoom Meeting</h3>
+                        <ol class="syarat-list">
+                            <li><strong>Format Nama</strong><br>Gunakan format berikut pada akun Zoom Meeting (Kode Perizinan-Nama-Perusahaan). Contoh: <b>TDG-Johan-PT Abadi Jaya</b></li>
+                            <li><strong>Kuota</strong><br>Maksimal 20 peserta per hari per jenis perizinan.</li>
+                            <li><strong>Durasi</strong><br>Maksimal 10 menit per sesi konsultasi.</li>
+                            <li><strong>Alternatif Konsultasi</strong><br>Jika kuota penuh, silakan konsultasi via Hotline WhatsApp <a href="https://api.whatsapp.com/send?phone=628111061919&amp;text=Halo%20Tim%20Konsultasi%20UPTP%20I%20-%20Perdagangan%20Dalam%20Negeri%2C%20berikut%20terlampir%20data%20diri%20%26%20pertanyaan%20yang%20ingin%20saya%20ajukan%3A%0A*%20Nama%3A%0A*%20Nama%20Perusahaan%3A%0A*%20Pertanyaan%3A%0ATerima%20kasih" target="_blank">0811-106-1919</a> (hanya pesan).</li>
+                            <li><strong>Survei Kepuasan</strong><br>Setelah konsultasi, mohon isi survei kepuasan: <a href="https://kemend.ag/skm-pdn" target="_blank">kemend.ag/skm-pdn</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="video-call-link-box text-center">
+                        <h3 class="box-title">Daftar Antrian</h3>
+                        <a target="_blank" href="https://hero.kemendag.go.id/tiket/kategori#uptp-i-pdn" class="btn-custom btn-blue">Klik di sini</a>
+                    </div>
+
+                    <div class="video-call-link-box text-center">
+                        <h3 class="box-title">Lihat Antrian <i>(Real-Time</i>)</h3>
+                        <a target="_blank" href="https://hero.kemendag.go.id/live/dashboard/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.Imhlcm86YW50cmlhbjo5NiI.DQOnTk6yYE1Z19uSWIfkf_5CPH0Vz2EizrWDTzkT3gfmNbKEMR_lhUnj01HoioPntyfKPxD9yM9gCywyXKQHMw" class="btn-custom btn-yellow">Klik di sini</a>
+                    </div>
+
+                    <div class="video-call-link-box text-center">
+                        <h3 class="box-title"><i>E-Book</i> Panduan</h3>
+                        <a target="_blank" href="https://drive.google.com/file/d/1Dp6-7g_Gu_Jqbt6vzfPW-wwd_cVCNmO4/view?usp=drive_link" class="btn-custom btn-red">Unduh</a>
+                    </div>
+
+                    <div class="more-info-box text-center">
+                        <h3 class="box-title">Informasi Lebih Lanjut</h3>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=628111061919&amp;text=Halo%20Tim%20Konsultasi%20UPTP%20I%20-%20Perdagangan%20Dalam%20Negeri%2C%20berikut%20terlampir%20data%20diri%20%26%20pertanyaan%20yang%20ingin%20saya%20ajukan%3A%0A*%20Nama%3A%0A*%20Nama%20Perusahaan%3A%0A*%20Pertanyaan%3A%0ATerima%20kasih" class="btn-custom btn-green">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
