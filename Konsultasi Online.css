@@ -4,10 +4,8 @@
 }
 
 /* General Box Styling */
-.jadwal-layanan-box,
-.syarat-ketentuan-box,
+
 .video-call-link-box,
-.pendahuluan-box,
 .more-info-box {
     background-color: #ffffff;
     border-radius: 12px;
@@ -15,7 +13,93 @@
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.pendahuluan-box {
+    background-color: #ffffff; /* Warna hitam sesuai dengan header */
+    border-radius: 12px; /* Menyesuaikan sudut */
+    padding: 0; /* Menghapus padding agar elemen mengikuti penuh */
+    margin: 0; /* Menghilangkan margin */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.pendahuluan-header {
+    background-color: rgb(247, 250, 252); /* Warna hitam untuk header */
+    padding: 20px;
+    color: rgb(73, 80, 87);
+    border-radius: 12px 12px 0 0;
+}
+
+.pendahuluan-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+/* Garis pemisah antara header dan content */
+.divider-line {
+    border: 0;
+    border-top: 2px solid #ccc; /* Garis horizontal dengan warna abu-abu */
+    margin: 0;
+}
+
+/* Pendahuluan Content Styling */
+.pendahuluan-content {
+
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+    text-align: justify;
+}
+
+
+/* Header Styling untuk Petunjuk Pendaftaran, Ketentuan Zoom Meeting, dan Jadwal Layanan */
+.syarat-ketentuan-header, 
+.jadwal-layanan-header {
+    background-color: rgb(247, 250, 252); /* Warna latar belakang hitam */
+    padding: 20px;
+    color: rgb(73, 80, 87);
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+}
+
+.syarat-ketentuan-header h3,
+.jadwal-layanan-header h3 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+/* Garis pemisah antara header dan content */
+.divider-line {
+    border: 0;
+    border-top: 2px solid #ccc; /* Garis horizontal dengan warna abu-abu */
+    margin: 0;
+}
+
+/* Petunjuk Pendaftaran, Ketentuan Zoom Meeting, dan Jadwal Layanan Content Styling */
+
+.jadwal-layanan-box {
+    background-color: #ffffff; /* Warna latar belakang putih untuk box */
+    border-radius: 12px;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+.syarat-ketentuan-box{
+    background-color: #ffffff; /* Warna latar belakang putih untuk box */
+    border-radius: 12px;
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+.syarat-ketentuan-box .box-title,
+.jadwal-layanan-box .box-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    color: rgb(73, 80, 87); /* Warna teks untuk title box */
+}
 
 
 .more-info-box {
@@ -78,8 +162,13 @@
 }
 
 /* Syarat & Ketentuan List Styling */
+.syarat-list {
+    padding-right: 1em;
+    margin-left: 1.5em;
+}
 .syarat-list li {
     margin-bottom: 12px;
+
 }
 
 .syarat-list .nested-bullet-list {
@@ -104,6 +193,7 @@ a:hover {
 /* Accordion (FAQ) Styling */
 .kotak-faq {
     background: var(--base-color-body);
+    
 }
 
 .kotak-faq-detail {
@@ -111,6 +201,8 @@ a:hover {
     padding: 20px;
     border-radius: 10px;
     color: unset;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .panel-title {
@@ -125,6 +217,8 @@ a:hover {
     outline: none;
     padding: 10px 25px;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .panel-title a {
