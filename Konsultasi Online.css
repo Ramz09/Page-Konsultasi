@@ -14,14 +14,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .pendahuluan-box {
-    background-color: #ffffff; /* Warna hitam sesuai dengan header */
+    background-color: white; /* Warna hitam sesuai dengan header */
     border-radius: 12px; /* Menyesuaikan sudut */
     padding: 0; /* Menghapus padding agar elemen mengikuti penuh */
     margin: 0; /* Menghilangkan margin */
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;  /* Menyebarkan jarak antara elemen */
+    gap: 20px;  /* Jarak antar elemen */
+    flex-wrap: wrap;  /* Membuat elemen wrap ke baris berikutnya pada ukuran layar kecil */
+    align-items: stretch; /* Memastikan elemen mengisi tinggi container */
+}
 .pendahuluan-header {
     background-color: rgb(247, 250, 252); /* Warna hitam untuk header */
     padding: 20px;
@@ -58,6 +64,7 @@
     color: rgb(73, 80, 87);
     border-radius: 12px 12px 0 0;
     text-align: center;
+    
 }
 
 .syarat-ketentuan-header h3,
@@ -81,15 +88,22 @@
     padding: 0px;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    width: 48%;  /* Membuat kedua box memiliki lebar hampir setengah dari container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+flex-grow: 1;  /* Membuat keduanya tumbuh untuk mengisi ruang yang tersedia */
+    display: flex;
+    flex-direction: column; /* Mengatur konten dalam box agar tampil secara vertikal */
 }
 .syarat-ketentuan-box{
-    background-color: #ffffff; /* Warna latar belakang putih untuk box */
+    background-color: white; /* Warna latar belakang putih untuk box */
     border-radius: 12px;
     padding: 0px;
     padding-bottom: 20px;
-    padding-top: 10px;
     margin-bottom: 20px;
+    width: 48%;  /* Membuat kedua box memiliki lebar hampir setengah dari container */
+    flex-grow: 1;  /* Membuat keduanya tumbuh untuk mengisi ruang yang tersedia */
+    display: flex;
+    flex-direction: column; /* Mengatur konten dalam box agar tampil secara vertikal */
 
 }
 .syarat-ketentuan-box .box-title,
@@ -282,4 +296,42 @@ a:hover {
         width: 2em;
         margin-right: 0.3em;
     }
+
+}
+
+@media (max-width: 1020px) {
+    /* Menata box secara vertikal pada ponsel */
+    .box-wrapper {
+        flex-direction: column; /* Menata elemen secara vertikal pada layar kecil */
+        gap: 10px;  /* Mengurangi jarak antar elemen */
+    }
+
+    .syarat-ketentuan-box, 
+    .jadwal-layanan-box {
+        width: 100%; /* Mengatur lebar box agar 100% */
+    }
+
+    /* Mengatur jarak pada kontainer */
+    .container.single-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 1021px) {
+    /* Menata box secara horizontal pada layar besar */
+    .box-wrapper {
+        flex-direction: row;  /* Menata elemen secara horizontal */
+        gap: 20px;  /* Mengatur jarak antar elemen */
+    }
+
+    .syarat-ketentuan-box, 
+    .jadwal-layanan-box {
+        width: 48%; /* Memberikan lebar hampir setengah dari container */
+    }
+}
+
+/* Menyesuaikan box wrapper dan kotak FAQ untuk ukuran desktop */
+.kotak-faq {
+    max-width: 100%;
 }
